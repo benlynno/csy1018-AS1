@@ -1,0 +1,197 @@
+
+
+
+
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mode of good practice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" type="text/css" href="styles/nav.css">
+<link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
+
+
+</head>
+<body style="background-color: #FFFFFF!important: ">
+   <header>
+       
+    </header>
+
+<nav>
+<ul class="navigation">
+    <li class="nav-item black-link"><a href="index.html">Home</a></li>
+    <li class="nav-item black-link"><a href="glossary.html">Glossary</a></li>
+    <li class="nav-item black-link"><a href="comparison.html">Comparison</a></li>
+    <li class="nav-item black-link"><a href="specialisation.html">Specialisation</a></li>
+    <li class="nav-item active white-link"><a href="#">MGP</a></li>
+    <li class="nav-item black-link"><a href="reflection.html">Reflection</a></li>
+    
+</ul>
+
+</nav>
+
+<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger"></label>
+
+<div class="site-wrap" style="background: ;">
+
+
+
+<div style="height: auto; background: #EEEEEE; width: 105% !important; background-repeat: no-repeat;"><!--banner--> 
+ <img src="images/mgp.jpg" alt="mgp" height="100%" width="100%" class="img-fluid"> 
+</div><!--banner image from www.google.com-->
+       
+       
+
+
+     
+<div class="container-md" style="background-color: #fff!important; height: 1000px ">
+       
+    <section id="middle" class="bg-gray" style="width: 97%">
+          <h2><font face="verdana" color="#0831e0">MODE OPF GOOD PRACTICE</font></h2>
+        <div class="section group">
+    
+    <div class="col span_1_of_3 profile-box">
+
+        <img src="images/wireframe.jpg" alt="banner" height="100%" width="100%" class="img-fluid">
+        <h3 class="profile-name">Wireframe of Home page</h3>
+
+    <p class="profile-inner-text">A first year BEng Computing (Computer Network Engineering) student and a resident of Northampton. 
+          Before my I enrolled on this course, I was analytical logistics specialist in the HM Forces for nine years. During my years in the service, I deployed to many countries including Afghan, Canada, Falkland Islands, Germany and Cyprus.
+          Yea, that is all you need to know about me, really.</p>
+
+          <p>
+
+          <span class="blue-link" style="width: 80%; background: #d9dfe0; padding: 5px;"><a href="mailto:ekow.bentil17@my.northampton.ac.uk">ekow.bentil17@my.northampton.ac.uk</a></span>
+
+          </p>
+
+    </div>
+    <div class="col span_1_of_3 profile-box">
+        <img src="images/squarespaces.jpg" alt="banner" height="100%" width="100%" class="img-fluid">
+        <h3 class="profile-name">Sqaure Sapces Homepage - Images</h3>
+
+    <p class="profile-inner-text">James lives in Bicester in Oxfordshire. I am a first year mature student at
+          Northampton University and studying a degree in Computing. I would like to specialise in 
+          the field of network security.My main hobbies are attending the gym, where I like to stay as fit as possible. I like to visit historical locations such as castles, manor houses and gardens. I also like in my spare time to socialise with friends and family, where I either go for drinks or meals at different restaurants in the local area.</p>
+
+          <p>
+
+          <span class="blue-link" style="width: 80%; background: #d9dfe0; padding: 5px;"><a href="mailto:james_sharman@hotmail.co.uk">
+            james_sharman@hotmail.co.uk
+          </a></span>
+
+          </p>
+
+    </div>
+    <div class="col span_1_of_3 profile-box" >
+        <img src="images/ineasysteps.jpg" alt="banner" height="100%" width="100%" class="img-fluid">
+        <h3 class="profile-name">Learning Materials</h3>
+    <p class="profile-inner-text">Liam is a first-year general computing student at Northampton University.
+          I hope to progress into a career within Networking and to get involved with research focusing on network expansion and architecture. I also have an interest in web design and would like to continue to expand my knowledge in this field in my spare time.</p>
+
+           <p>
+
+          <span class="blue-link" style="width: 80%; background: #d9dfe0; padding: 5px;"><a href="mailto:robinson.liam93@gmail.com">
+            robinson.liam93@gmail.com
+          </a></span>
+
+          </p>
+    </div>
+
+
+
+            </div>
+
+            
+    </section>
+
+
+
+
+
+      
+
+    <div id="map"></div>
+
+
+    <footer class="footer">&copy; 2017 - 2019 All Right Reserved</footer>
+
+</div>
+    
+    
+
+
+
+    
+
+
+<style>
+    input, textarea{ display: flex -webkit-box-sizing: border-box;
+    -moz-box-sizing:border-box;
+box-sizing: border-box; width:80% }
+</style>
+
+<div id="glab_content">
+<div id="title"></div>
+<div id="form_content"></div>
+
+<form>
+    <input type="text" name="name" placeholder="Home" />
+    <input type="email" name="email" placeholder="Email" />
+    <input type="text" name="phone" placeholder="Phone" />
+    <textarea name="message" placeholder="Message"></textarea>
+    <input type="submit" name="send" value="send" />
+</form>
+
+</div>
+            
+
+            
+      
+
+
+
+
+
+
+
+
+
+        <div class="container-map"><!--contact-->
+            
+    <script>
+      function initMap() {
+        var uluru = {lat: 5.6037, lng:0.1870};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3Dh0I57SbGaLNyD8IfpdtviS1CYAhq9M&callback=initMap">
+    </script>
+
+        </div><!--contact ends-->
+
+
+
+        
+</div>
+
+
+
+
+
+</body>
+</html>
+
+
+

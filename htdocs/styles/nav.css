@@ -1,0 +1,164 @@
+.navigation {
+    list-style: none;
+    background: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+
+
+.nav-item {
+
+     background-color: none;
+     padding: 17px;
+
+}
+
+
+
+
+.nav-trigger {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+
+label[for="nav-trigger"] {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 2;
+}
+
+label[for="nav-trigger"] {
+    /* ... previous styles... */
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='6'/><rect y='24' width='30' height='6'/><rect y='12' width='30' height='6'/></svg>");
+    background-size: contain;
+}
+
+.nav-trigger:checked + label {
+    left: 215px;
+}
+
+.nav-trigger:checked ~ .site-wrap {
+    left: 200px;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+}
+
+.nav-trigger + label, .site-wrap {
+    transition: left 0.2s;
+}
+
+.nav {
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+
+
+.nav a {
+  
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #FFFFFF;
+}
+
+.nav a:active {
+  color: #FFFFFF !important;
+}
+
+
+.active {
+  background-color: #4CAF50;
+  color: #FFFFFF;
+  text-decoration: none !important;
+  font-size: 17px;
+
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
+.blue-link a:link {
+  color: #0315c3 !important;
+  text-decoration: none !important;
+}
+
+.blue-link a:visited {
+  color: #0315c3 !important;
+  text-decoration: none !important;
+}
+
+.blue-link a:active {
+  color: #0315c3 !important;
+  text-decoration: none !important;
+}
+
+.blue-link a:hover {
+  color: #000000 !important;
+  text-decoration: none !important;
+}
+
+
+.white-link a:link {
+  color: #FFFFFF !important;
+  text-decoration: none !important;
+}
+
+.white-link a:visited {
+  color: #FFFFFF !important;
+  text-decoration: none !important;
+
+}
+
+.white-link a:active {
+  color: #FFFFFF !important;
+  text-decoration: none !important;
+}
+
+.white-link a:hover {
+  color: #000000 !important;
+  text-decoration: none !important;
+}
+
+
+.black-link a:link {
+  color: #000000 !important;
+  text-decoration: none !important;
+}
+
+.black-link a:visited {
+  color: #000000on: none !important;
+
+}
+
+.black-link a:active {
+  color: #000000on: none !important;
+}
+
+.black-link a:hover {
+  color: #000000 !important;
+  text-decoration: none !important;
+}
+
+
+
+
+
+
+body {
+    overflow-x: hidden;
+}

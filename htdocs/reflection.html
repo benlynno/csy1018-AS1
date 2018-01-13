@@ -1,0 +1,101 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Reflection</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles/nav.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
+</head>
+
+<body style="background-color: #FFFFFF!important: ">
+    <header>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li class="nav-item black-link">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="nav-item black-link">
+                <a href="glossary.html">Glossary</a>
+            </li>
+            <li class="nav-item black-link">
+                <a href="comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item black-link">
+                <a href="specialisation.html">Specialisation</a>
+            </li>
+            <li class="nav-item black-link">
+                <a href="mgp.html">MGP</a>
+            </li>
+            <li class="nav-item active white-link">
+                <a href="#">Reflection</a>
+            </li>
+            
+        </ul>
+    </nav>
+
+    <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+    <label for="nav-trigger"></label>
+    <div class="site-wrap" style="background: ;">
+        <div style="height: auto; background: #EEEEEE; width: 105% !important; background-repeat: no-repeat;">
+            <!--banner-->
+            <img src="images/reflection.jpg" alt="reflectionr" height="100%" width="100%" class="img-fluid">
+        </div>
+        <!--banner image from www.google.com-->
+
+        <h1 class="m-t-20">Reflection: </h1>
+        <p class="m-t-20 body-padding" class="m-l-20">
+            In the beginning there was the WEB, and “man”(me) knew absolutely nothing about the WEB, let alone experience in creating
+            websites. But thanks to Liz Coulter-Smith (Module Leader) and Andrew Dean (Module Tutor), ‘man’ is able to understand
+            what it takes to build a website. It’s no secret that web design is a fast-growing industry. Almost every type
+            of business is in need of a quality website and there are many opportunities on a large scale from freelancers
+            down to developing small-business websites from home.
+            <br>
+            <br> Before the start of this course, I knew nothing about HTML,CSS,Syntax,htdocs, and many more. Especially, coming
+            from a background that had nothing to do the web. Though, it was challenging and it is still, I am enjoying the
+            experience that comes with it. With the available 24-hour support for students, it is really helpful whenever
+            you are stuck or struggling. Through this support, I have been able to grasp the fundamentals of web designing
+            and developing. As it is said, journey of a thousand miles, begins with a step, everybody starts from somewhere
+            in life or everything, and there’s no better time than present to begin web design education. I know, no one
+            you can become a professional web designer overnight. It takes years to reach an expert level in any aspect of
+            the field.
+            <br>
+            <br> In a sober reflection, I think I have come a long way in this programme and getting myself up to speed can be
+            a daunting task but it is doable.
+        </p>
+        <b></b>
+        <hr>
+        <b></b>
+        <h3 class="profile-name">Origin</h3>
+        <div id="map"></div>
+        <footer class="footer">&copy; 2017 - 2019 All Right Reserved</footer>
+    </div>
+    <div class="container-map">
+        
+
+        <script>
+            function initMap() {
+                var uluru = { lat: 5.6037, lng: 0.1870 };
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 4,
+                    center: uluru
+                });
+                var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                });
+            }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3Dh0I57SbGaLNyD8IfpdtviS1CYAhq9M&callback=initMap">
+        </script>
+
+    </div>
+
+    </div>
+
+
+</body>
+
+</html>

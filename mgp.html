@@ -1,151 +1,149 @@
-
-
-
-
 <!Doctype html>
+
+
+
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Mode of good practice</title>
+    <title>Models of good practice</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link rel="stylesheet" type="text/css" href="styles/nav.css">
-<link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="styles/nav.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/main.css" />
 
 
 </head>
+
 <body style="background-color: #FFFFFF!important: ">
-   <header>
-       
+    <header>
+
     </header>
 
-<nav>
-<ul class="navigation">
-    <li class="nav-item black-link"><a href="index.html">Home</a></li>
-    <li class="nav-item black-link"><a href="glossary.html">Glossary</a></li>
-    <li class="nav-item black-link"><a href="comparison.html">Comparison</a></li>
-    <li class="nav-item black-link"><a href="specialisation.html">Specialisation</a></li>
-    <li class="nav-item active white-link"><a href="#">MGP</a></li>
-    <li class="nav-item black-link"><a href="reflection.html">Reflection</a></li>
-    
-</ul>
+    <nav>
+        <ul class="navigation">
+            <li class="nav-item black-link">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="nav-item black-link">
+                <a href="glossary.html">Glossary</a>
+            </li>
+            <li class="nav-item black-link">
+                <a href="comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item black-link">
+                <a href="specialisation.html">Specialisation</a>
+            </li>
+            <li class="nav-item active white-link">
+                <a href="#">MGP</a>
+            </li>
+            <li class="nav-item black-link">
+                <a href="reflection.html">Reflection</a>
+            </li>
 
-</nav>
+        </ul>
 
-<input type="checkbox" id="nav-trigger" class="nav-trigger" />
-<label for="nav-trigger"></label>
+    </nav>
 
-<div class="site-wrap" style="background: ;">
+    <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+    <label for="nav-trigger"></label>
 
-
-
-<div style="height: auto; background: #EEEEEE; width: 105% !important; background-repeat: no-repeat;"><!--banner--> 
- <img src="images/mgp.jpg" alt="mgp" height="100%" width="100%" class="img-fluid"> 
-</div><!--banner image from www.google.com-->
-       
-       
+    <div class="site-wrap" style="background: ;">
 
 
-     
-<div class="container-md" style="background-color: #fff!important; height: 1000px ">
-       
-    <section id="middle" class="bg-gray" style="width: 97%">
-          <h2><font face="verdana" color="#0831e0">MODE OPF GOOD PRACTICE</font></h2>
-        <div class="section group">
-    
-    <div class="col span_1_of_3 profile-box">
 
-        <img src="images/wireframe.jpg" alt="banner" height="100%" width="100%" class="img-fluid">
-        <h3 class="profile-name">Wireframe of Home page</h3>
+        <div style="height: auto; background: #EEEEEE; width: 105% !important; background-repeat: no-repeat;">
+            <!--banner-->
+            <img src="images/mgp.jpg" alt="mgp" height="100%" width="100%" class="img-fluid">
+        </div>
+        <!--banner image from www.google.com depicting models of good practice-->
 
-    <p class="profile-inner-text">This is a wireframe of my home page. A wireframe is an image or set of images which displays the functional elements of a website.</p>
 
-          
+
+        <div class="container-md" style="background-color: #fff!important; height: 1000px ">
+
+            <section id="middle" class="bg-gray" style="width: 97%">
+                <h2>
+                    <font face="verdana" color="#0831e0">MODE OPF GOOD PRACTICE</font>
+                </h2>
+                <div class="section group">
+
+                    <div class="col span_1_of_3 profile-box">
+
+                        <img src="images/wireframe.jpg" alt="banner" height="100%" width="100%" class="img-fluid">
+                        <h3 class="profile-name">Wireframe of Home page</h3>
+
+                        <p class="profile-inner-text">This is a wireframe of my home page. A wireframe is an image or set of images which displays the
+                            functional elements of a website. I used this wireframe as a guidance to the devolpment of my
+                            home page.</p>
+
+
+                    </div>
+                    <div class="col span_1_of_3 profile-box">
+                        <img src="images/squarespaces.jpg" alt="banner" height="100%" width="100%" class="img-fluid">
+                        <h3 class="profile-name">Sqauresapce Homepage - Images</h3>
+                        <!--image from www.squarespace.com-->
+                        <p class="profile-inner-text"> This is a website builder company which create beautiful websites for individuals and companies as
+                            well as hosting. This site is very attractive with current inspirational User Interfaces. </p>
+
+                    </div>
+                    <div class="col span_1_of_3 profile-box">
+                        <img src="images/ineasysteps.jpg" alt="banner" height="100%" width="100%" class="img-fluid">
+                        <!--image from ineasysteps.com-->
+                        <h3 class="profile-name">Learning Materials</h3>
+                        <p class="profile-inner-text">I purchased this easy to follow books (HTML5 and CSS3 all written by Mike McGrath) as a guideline
+                            to try and take control of basic web design. Apart form these basic books, the site also have
+                            more quality and advanced learning materials for individuals wanting to be professional web delopers.
+
+                        </p>
+
+                    </div>
+
+
+
+                </div>
+
+
+            </section>
+
+
+
+            <div id="map"></div>
+
+
+            <footer class="footer">&copy; 2017 - 2019 All Right Reserved</footer>
+
+        </div>
+
+
+
+
+        <div class="container-map">
+
+
+            <script>
+                function initMap() {
+                    var uluru = { lat: 5.6037, lng: 0.1870 };
+                    var map = new google.maps.Map(document.getElementById('map'), {
+                        zoom: 4,
+                        center: uluru
+                    });
+                    var marker = new google.maps.Marker({
+                        position: uluru,
+                        map: map
+                    });
+                }
+            </script>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3Dh0I57SbGaLNyD8IfpdtviS1CYAhq9M&callback=initMap">
+            </script>
+
+        </div>
+
+
+
     </div>
-    <div class="col span_1_of_3 profile-box">
-        <img src="images/squarespaces.jpg" alt="banner" height="100%" width="100%" class="img-fluid">
-        <h3 class="profile-name">Sqauresapce Homepage - Images</h3>
-<!--image from www.squarespace.com-->
-    <p class="profile-inner-text"> This is a website builder company which create beautiful websites for individuals and companies as well as hosting.</p>
-         
-    </div>
-    <div class="col span_1_of_3 profile-box" >
-        <img src="images/ineasysteps.jpg" alt="banner" height="100%" width="100%" class="img-fluid">
-        <!--image from google-->
-        <h3 class="profile-name">Learning Materials</h3>
-    <p class="profile-inner-text">I purchased this easy to follow books (HTML5 and CSS3 all written by Mike McGrath) as a guideline to try and take control of basic web design.</p>
-           
-    </div>
-
-
-
-            </div>
-
-            
-    </section>
-
-
-
-
-
-      
-
-    <div id="map"></div>
-
-
-    <footer class="footer">&copy; 2017 - 2019 All Right Reserved</footer>
-
-</div>
-    
-    
-
-
-
-    
-
-
-      
-
-
-
-
-
-
-
-
-
-        <div class="container-map"><!--contact-->
-            
-    <script>
-      function initMap() {
-        var uluru = {lat: 5.6037, lng:0.1870};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3Dh0I57SbGaLNyD8IfpdtviS1CYAhq9M&callback=initMap">
-    </script>
-
-        </div><!--contact ends-->
-
-
-
-        
-</div>
-
-
-
 
 
 </body>
+
 </html>
-
-
-
